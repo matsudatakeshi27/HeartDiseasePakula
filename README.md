@@ -1,2 +1,0 @@
-# HeartDiseasePakula
-HeartDiseasePakula
