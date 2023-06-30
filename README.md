@@ -8,7 +8,7 @@
 
 ## Description
 
-Welcome aboard! 
+Welcome aboard! 😀
 
 We are dedicated data scientists working on this Data Science Reserach Project. 
 
@@ -34,4 +34,10 @@ Besides machine learning techniques, we also deployed clustering and deep learni
 | Kmean  | 80.52%  |
 |CNN | 79.85%|
 |RNN|82.04%|
+
+---
+# Stage II: Federated Learning
+
+
+This is an example of federated learning using MNIST dataset, first download the [MNIST data set from Kaggle](), and run the Python files.
 
