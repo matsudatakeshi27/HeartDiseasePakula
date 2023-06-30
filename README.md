@@ -36,7 +36,7 @@ Besides machine learning techniques, we also deployed clustering and deep learni
 |RNN|82.04%|
 
 ---
-# Stage II: Federated Learning
+## Stage II: Federated Learning
 ### Getting started with FL
 * Download the [MNIST data set from Kaggle](https://www.kaggle.com/datasets/scolianni/mnistasjpg)
 * Run the Python files
@@ -71,3 +71,14 @@ graph TB
 
     N == update_weights ==> A
 ```
+### Results:
+* Learning rate: 0.01
+* Optimizer: SGD
+* Loss function: Sparse Cross Entropy
+* Result after 100 global epochs:
+
+  | Model  | Accuracy  | Precision | Recall |
+  |--------|------------|-------|----------|
+  |MLP|85%|85%|85%|
+  |CNN|temp|temp|temp|temp|
+  |RNN|temp|temp|temp|temp|
