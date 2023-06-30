@@ -109,9 +109,9 @@ graph TB
 ## Contact
 Ethan Wang - [e13wang@gmail.com](e13wang@gmail.com) - [Linkedin Profile](https://www.linkedin.com/in/ethan-wang-938588175/)
 
-Takeshi Matsuda - 
+Takeshi Matsuda - [takeshimatsuda27@gmail.com](takeshimatsuda27@gmail.com) - [Linkedin Profile](https://www.linkedin.com/in/takeshi-matsuda-41777b1ab/)
 
-Project Link: [https://github.com/EthanWTL/HeartDiseasePakula](https://github.com/EthanWTL/HeartDiseasePakula)
+Project Link: [https://github.com/matsudatakeshi27/HeartDiseasePakula](https://github.com/matsudatakeshi27/HeartDiseasePakula)
 
 
 
