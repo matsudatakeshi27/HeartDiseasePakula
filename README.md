@@ -72,10 +72,10 @@ graph TB
     N == update_weights ==> A
 ```
 ### Results:
-* Learning rate: 0.01
-* Optimizer: SGD
-* Loss function: Sparse Cross Entropy
-* Result after 100 global epochs:
+* ```Learning rate```: 0.01
+* ```Optimizer```: SGD
+* ```Loss function```: Sparse Cross Entropy
+* Result after 100 ```global epochs```:
 
   | Model  | Accuracy  | Precision | Recall |
   |--------|------------|-------|----------|
