@@ -8,4 +8,8 @@
 
 ## Description
 
-Welcome and we are dedicated data scientists working on this Data Science Reserach Project with a focus on implement Federated Learning on UCI Heart Dieease dataset.
+Welcome aboard! We are dedicated data scientists working on this Data Science Reserach Project. It has a focus on implement Federated Learning on [UCI Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) to help early stage detection of Cardiovasular Disease.
+
+
+
+
