@@ -39,5 +39,10 @@ Besides machine learning techniques, we also deployed clustering and deep learni
 # Stage II: Federated Learning
 
 
-This is an example of federated learning using MNIST dataset, first download the [MNIST data set from Kaggle](), and run the Python files.
-
+This is an example of federated learning using MNIST dataset
+* Download the [MNIST data set from Kaggle](https://www.kaggle.com/datasets/scolianni/mnistasjpg)
+* Run the Python files
+  ```sh
+   python FL_demo/run_federated_learning.py
+   ```
+* Accuracy: ```80.20%```
