@@ -10,7 +10,7 @@
 
 Welcome! 😀
 
-We are dedicated data scientists working on this Data Science Reserach Project. 
+We are dedicated data scientists working on with [Pakula BioMedical Fellowship Program](https://www.beloit.edu/academics/biology/resources-opportunities/summer-research/) for summer research! 
 
 It has a focus on implementing Federated Learning on [UCI Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) to help early stage detection of cardiovasular diseases.
 
