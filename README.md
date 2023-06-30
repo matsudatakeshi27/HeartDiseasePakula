@@ -8,11 +8,11 @@
 
 ## Description
 
-Welcome aboard! 😀
+Welcome! 😀
 
 We are dedicated data scientists working on this Data Science Reserach Project. 
 
-It has a focus on implement Federated Learning on [UCI Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) to help early stage detection of Cardiovasular Disease.
+It has a focus on implementing Federated Learning on [UCI Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) to help early stage detection of cardiovasular diseases.
 
 ---
 ## Stage I: Baseline Modeling
@@ -37,12 +37,30 @@ Besides machine learning techniques, we also deployed clustering and deep learni
 
 ---
 # Stage II: Federated Learning
-
-
-This is an example of federated learning using MNIST dataset
+### Getting started with FL
 * Download the [MNIST data set from Kaggle](https://www.kaggle.com/datasets/scolianni/mnistasjpg)
 * Run the Python files
   ```sh
    python FL_demo/run_federated_learning.py
    ```
-* Accuracy: ```80.20%```
+* Global Model Accuracy: ```80.20%```
+* Check out [Flower](https://github.com/adap/flower) with more detailed explanation about FL.
+
+### Our FL pipeline:
+```mermaid
+graph TB
+    A[Global Model] -- sub_modeling --> B[Cleveland_model]
+    A[Global Model] -- sub_modeling --> C[Virginia_model]
+    A[Global Model] -- sub_modeling --> D[Hungarian_model]
+    A[Global Model] -- sub_modeling --> E[Switzerland_model]
+
+    B -- feed_data --> F((Cleveland_data))
+    C -- feed_data --> G((Virginia_data))
+    D -- feed_data --> H((Hungarian_data))
+    E -- feed_data --> I((Switerland_data))
+
+    F -- update_model --> J(Cleveland_model_updated)
+    G -- update_model --> K(Virginia_model_updated)
+    H -- update_model --> L(Hungarian_model_updated)
+    I -- update_model --> M(Switzerland_model_updated)
+```
