@@ -35,7 +35,6 @@ Besides machine learning techniques, we also deployed clustering and deep learni
 |CNN | 79.85%|
 |RNN|82.04%|
 
----
 ## Stage II: Federated Learning
 ### Getting started with FL
 * Download the [MNIST data set from Kaggle](https://www.kaggle.com/datasets/scolianni/mnistasjpg)
@@ -82,3 +81,23 @@ graph TB
   |MLP|85%|85%|85%|
   |CNN|temp|temp|temp|temp|
   |RNN|temp|temp|temp|temp|
+
+---
+
+## Roadmap
+
+- [x] Implement Baseline experiment
+- [ ] Federated Learning
+  - [x] MLP
+  - [ ] CNN
+  - [ ] RNN
+- [ ] Tranfer Learning
+
+## Reference and Future Reading:
+* [Back-Propagation Neural Network Versus Logistic Regression in Heart Disease Classification](https://link.springer.com/chapter/10.1007/978-981-13-0680-8_13)
+* [Heart Disease Risk Prediction Using Supervised Machine Learning Algorithms](https://link.springer.com/chapter/10.1007/978-981-99-0412-9_11)
+* [HEART DISEASE PREDICTION USING DATA MINING TECHNIQUES](https://hal.science/hal-02196156/)
+* [A Submodularity-based Agglomerative Clustering Algorithm for the Privacy Funnel](https://www.semanticscholar.org/paper/A-Submodularity-based-Agglomerative-Clustering-for-Ding-Sadeghi/4e7b3b31659c945ed0c953da9fe7af297b3f3675)
+* [Early detection of silent ischaemic heart disease by 24-hour electrocardiographic monitoring of active subjects.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC458846/)
+* [Development of a federated learning approach to predict acute kidney injury in adult hospitalized patients with COVID-19 in New York City](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8328073/)
+* [Federated learning for multi-center imaging diagnostics: a simulation study in cardiovascular disease](https://www.nature.com/articles/s41598-022-07186-4)
