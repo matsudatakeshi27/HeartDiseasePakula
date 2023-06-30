@@ -19,7 +19,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras import backend as K
 
-from fl_mnist_implementation_tutorial_utils import *
+from helper_functions import *
 
 #declear path to your mnist data folder
 img_path = '/path/to/your/training/dataset'
