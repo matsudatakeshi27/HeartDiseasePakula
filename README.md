@@ -33,12 +33,9 @@ To create a baseline understanding of the project as well as testing our data cl
 
 
 Besides machine learning techniques, we also deployed clustering and deep learning methods for cross reference.
-| ML Technique  | Our Accuracy  |
-| ------------- | ------------- |
-| SOM  | 81.19%  |
-| Kmean  | 80.52%  |
-|CNN | 79.85%|
-|RNN|82.04%|
+|  | SOM  | Kmean | ANN | CNN | RNN |
+| --- | --- | --- | --- | --- | --- | 
+| Accuracy | 81.% | 80%  | 85% |85%| 84%|
 
 
 
