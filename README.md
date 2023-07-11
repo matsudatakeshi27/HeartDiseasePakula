@@ -94,7 +94,10 @@ graph TB
 
 ## Analysis & Comparison
 
+![image](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/177720dd-3293-4bbd-91c7-f37804695174)
 
+
+![image](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/078ee836-76f1-4ff5-b4b3-d21e1c072209)
 
 
 
