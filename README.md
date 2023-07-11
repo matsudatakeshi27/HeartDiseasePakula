@@ -61,15 +61,15 @@ graph TB
     A{Global Model} <-- weights_transfer --> D[Hungarian_model]
     A{Global Model} <-- weights_transfer --> E[Switzerland_model]
 
-    B <-- training --> F((Cleveland_data))
-    C <-- training --> G((Virginia_data))
-    D <-- training --> H((Hungarian_data))
-    E <-- training --> I((Switerland_data))
+    B -- training --> F((Cleveland_data))
+    C -- training --> G((Virginia_data))
+    D -- training --> H((Hungarian_data))
+    E -- training --> I((Switerland_data))
 
-    F <-- update_model --> J(Cleveland_model_updated)
-    G <-- update_model --> K(Virginia_model_updated)
-    H <-- update_model --> L(Hungarian_model_updated)
-    I <-- update_model --> M(Switzerland_model_updated)
+    F -- update_model --> J(Cleveland_model_updated)
+    G -- update_model --> K(Virginia_model_updated)
+    H -- update_model --> L(Hungarian_model_updated)
+    I -- update_model --> M(Switzerland_model_updated)
 
 ```
 ### Results:
