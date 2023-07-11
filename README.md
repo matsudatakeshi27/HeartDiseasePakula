@@ -75,11 +75,11 @@ graph TB
 * ```Loss function```: Sparse Cross Entropy
 * Result after 100 ```global epochs```:
 
-  | Model  | Accuracy  | Precision | Recall |
-  |--------|------------|-------|----------|
-  |MLP|85%|85%|85%|
-  |CNN|temp|temp|temp|temp|
-  |RNN|temp|temp|temp|temp|
+  |Model| Combined  | Cleveland | Long Beach | Hungary | Switzerland |
+  |--------|--------|--------|--------|--------|--------|
+  |ANN-FL|84%|82%|80%|85%|92%|
+  |CNN-FL|85%|87%|78%|87%|89%|
+  |RNN-FL|83%|79%|80%|85%|95%|
 
 
 ---
@@ -94,10 +94,10 @@ graph TB
 
 ## Roadmap
 - [x] Implement Baseline experiment
-- [ ] Federated Learning
+- [x] Federated Learning
   - [x] MLP
-  - [ ] CNN
-  - [ ] RNN
+  - [x] CNN
+  - [x] RNN
 - [ ] Tranfer Learning
 
 
