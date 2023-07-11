@@ -56,27 +56,21 @@ Besides machine learning techniques, we also deployed clustering and deep learni
 ### Our FL pipeline:
 ```mermaid
 graph TB
-    A{Global Model} -- sub_modeling --> B[Cleveland_model]
-    A{Global Model} -- sub_modeling --> C[Virginia_model]
-    A{Global Model} -- sub_modeling --> D[Hungarian_model]
-    A{Global Model} -- sub_modeling --> E[Switzerland_model]
+    A{Global Model} <-- weights_transfer --> B[Cleveland_model]
+    A{Global Model} <-- weights_transfer --> C[Virginia_model]
+    A{Global Model} <-- weights_transfer --> D[Hungarian_model]
+    A{Global Model} <-- weights_transfer --> E[Switzerland_model]
 
-    B -- feed_data --> F((Cleveland_data))
-    C -- feed_data --> G((Virginia_data))
-    D -- feed_data --> H((Hungarian_data))
-    E -- feed_data --> I((Switerland_data))
+    B <-- training --> F((Cleveland_data))
+    C <-- training --> G((Virginia_data))
+    D <-- training --> H((Hungarian_data))
+    E <-- training --> I((Switerland_data))
 
-    F -- update_model --> J(Cleveland_model_updated)
-    G -- update_model --> K(Virginia_model_updated)
-    H -- update_model --> L(Hungarian_model_updated)
-    I -- update_model --> M(Switzerland_model_updated)
+    F <-- update_model --> J(Cleveland_model_updated)
+    G <-- update_model --> K(Virginia_model_updated)
+    H <-- update_model --> L(Hungarian_model_updated)
+    I <-- update_model --> M(Switzerland_model_updated)
 
-    J -- weighted_average --> N(Global Model Updated)
-    K -- weighted_average --> N(Global Model Updated)
-    L -- weighted_average --> N(Global Model Updated)
-    M -- weighted_average --> N(Global Model Updated)
-
-    N == update_weights ==> A
 ```
 ### Results:
 * ```Learning rate```: 0.01
