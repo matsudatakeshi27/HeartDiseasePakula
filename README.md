@@ -24,7 +24,7 @@ It has a focus on implementing Federated Learning on [UCI Heart Disease dataset]
 
 To create a baseline understanding of the project as well as testing our data cleaning accuracy, we delpoyed a set of traditional machine learning technique, the results for Cleveland datasets are shown as following.
 
-| ML Technique  | Our Accuracy  | Other Research's Accuracy  |
+| ML Technique  | Cleveland Accuracy  | Other Research's Accuracy  |
 | ------------- | ------------- | ------------------------ |
 | Decision Tree  | 75.82%  | 83.57%  [Shrinivas D Desai et al.](https://link.springer.com/chapter/10.1007/978-981-13-0680-8_13)  |
 | Random Forest  | 84.37%  |  86.90% [Pal and Parija](https://link.springer.com/chapter/10.1007/978-981-99-0412-9_11)  |
@@ -32,10 +32,16 @@ To create a baseline understanding of the project as well as testing our data cl
 | Bayesian Classifier  | 82.26%  |   86.60%      [Anitha S., Sridevi N.](https://hal.science/hal-02196156/)  |
 
 
-Besides machine learning techniques, we also deployed clustering and deep learning methods for cross reference.
-|  | SOM  | Kmean | ANN | CNN | RNN |
+The table below presents the comprehensive results for our baseline models.
+|  | Combined  | Cleveland | Long Beach | Hungary | Switzerland |
 | --- | --- | --- | --- | --- | --- | 
-| Accuracy | 81.% | 80%  | 85% |85%| 84%|
+| Decision Tree | 80% | 79%  | 68% |85%| 89%|
+| Random Forest | 85% | 84%  | 83% |91%| 92%|
+| SVM | 86% | 86% | 82% |84%| 95%|
+| Bayesian Classifier | 83% | 82%  | 80% |43%| 57%|
+| ANN | 85% | 84%  | 82% |85%| 95%|
+| CNN | 85% | 79%  | 82% |87%| 95%|
+| RNN | 80% | 79%  | 77% |85%| 92%|
 
 
 
