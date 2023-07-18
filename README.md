@@ -99,6 +99,8 @@ graph TB
 ![image](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/078ee836-76f1-4ff5-b4b3-d21e1c072209)
 
 
+![ROC curves FL](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/98d2ceb8-bbfe-4770-953b-f77964fa77e6)
+
 
 ## Roadmap
 - [x] Implement Baseline experiment
