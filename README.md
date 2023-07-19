@@ -43,9 +43,6 @@ The table below presents the comprehensive results for our baseline models.
 | CNN | 85% | 79%  | 82% |87%| 95%|
 | RNN | 80% | 79%  | 77% |85%| 92%|
 
-ROC curves that shows different baseline models' performance
-![download](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/4e25c6a9-fb15-4f30-8b89-1f2dfe64ce01)
-
 
 
 ## Stage II: Federated Learning
@@ -101,6 +98,8 @@ graph TB
 
 ![image](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/078ee836-76f1-4ff5-b4b3-d21e1c072209)
 
+
+![ROC curves FL](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/98d2ceb8-bbfe-4770-953b-f77964fa77e6)
 
 
 ## Roadmap
