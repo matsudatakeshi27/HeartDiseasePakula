@@ -66,7 +66,7 @@ graph TB
     B -- training --> F((Cleveland_data))
     C -- training --> G((Virginia_data))
     D -- training --> H((Hungarian_data))
-    E -- training --> I((Switerland_data))
+    E -- training --> I((Switzerland_data))
 
     F -- update_model --> J(Cleveland_model_updated)
     G -- update_model --> K(Virginia_model_updated)
